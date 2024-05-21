@@ -25,18 +25,18 @@ To deploy this project run
 2) An environment file must be created to store the RapidAPI key as a global variable.
 
 ```bash
-  REACT_APP_RAPIT_API_KEY='you API key goes here'
+REACT_APP_RAPIT_API_KEY='you API key goes here'
 ```
 3) Run following command to install relevant dependencies
 
 ```bash
-    npm i
+npm i
 ```
 
 4) Please use the following command to execute the application:
 
 ```bash
-    npm start
+npm start
 ```
 
 ## Demo
