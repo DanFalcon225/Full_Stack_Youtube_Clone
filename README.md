@@ -1,70 +1,44 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Full Stack Youtube Clone
 
-## Available Scripts
+The present project is primarily centered around demonstrating the fundamental capabilities of YouTube. It encompasses the following functionalities:
 
-In the project directory, you can run:
+* Retrieving comprehensive data from the YouTube API through the RapidAPI service.
+* Facilitating searches for relevant videos and providing auto-suggestions for similar content.
+* Displaying channel pages with pertinent statistical elements, such as subscriber counts.
+* Enabling playback of YouTube videos via a fully operational YouTube video player.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* React JS with [Material UI 5](https://mui.com/material-ui/getting-started/)
+* **Tools**: [RapidAPI](https://rapidapi.com/hub)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To deploy this project run
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1) Create account in [RapidAPI](https://rapidapi.com/hub) and navigate to [Youtube v3](https://rapidapi.com/ytdlfree/api/youtube-v31) API.
+2) An environment file must be created to store the RapidAPI key as a global variable.
 
-### `npm run eject`
+```bash
+  REACT_APP_RAPIT_API_KEY='you API key goes here'
+```
+3) Run following command to install relevant dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+    npm i
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4) Please use the following command to execute the application:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+    npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Demo
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="1727" alt="Screenshot 2024-05-21 at 20 39 35" src="https://github.com/DanFalcon225/Full_Stack_Youtube_Clone/assets/93957570/5072e5b7-5eb6-4046-b313-0b771a703cc6">
