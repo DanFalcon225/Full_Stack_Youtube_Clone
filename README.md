@@ -42,3 +42,9 @@ npm start
 ## Demo
 
 <img width="1727" alt="Screenshot 2024-05-21 at 20 39 35" src="https://github.com/DanFalcon225/Full_Stack_Youtube_Clone/assets/93957570/5072e5b7-5eb6-4046-b313-0b771a703cc6">
+
+## Authors
+
+This application was constructed in accordance with a tutorial
+
+- [@adrianhajdin](https://github.com/adrianhajdin) / [video](https://www.youtube.com/watch?v=FHTbsZEJspU)
