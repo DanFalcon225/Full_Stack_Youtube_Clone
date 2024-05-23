@@ -45,6 +45,4 @@ npm start
 
 ## Authors
 
-This application was constructed in accordance with a tutorial
-
-- [@adrianhajdin](https://github.com/adrianhajdin) / [video](https://www.youtube.com/watch?v=FHTbsZEJspU)
+This application was constructed in accordance with a [@adrianhajdin](https://github.com/adrianhajdin) tutorial [video](https://www.youtube.com/watch?v=FHTbsZEJspU)
